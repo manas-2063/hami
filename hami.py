@@ -334,7 +334,6 @@ def file_crack():
     try:
         fo = open(file,'r').read().splitlines()
     except FileNotFoundError:
-    	print('\n\033[1;37m[+]══════════════════════════════════════════')
         print(' YOUR GIVEN FILE IS NOT FOUND IN STORAGE ⚠️ ...')
         print('\n\033[1;37m[+]══════════════════════════════════════════')
         time.sleep(1)
